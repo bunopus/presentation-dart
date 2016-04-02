@@ -1,0 +1,132 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.web_workers.shared.message_bus",
+    "3": [
+      {
+        "1": "package:angular2/src/facade/async.dart",
+        "2": [
+          "EventEmitter"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/zone/ng_zone.dart",
+        "2": [
+          "NgZone"
+        ],
+        "5": false
+      }
+    ],
+    "4": [
+      {
+        "1": "package:angular2/src/facade/async.dart",
+        "2": [
+          "EventEmitter",
+          "Stream"
+        ]
+      }
+    ],
+    "6": "message_bus.dart",
+    "10": [
+      {
+        "1": "package:angular2/src/facade/async.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "package:angular2/src/core/zone/ng_zone.template.dart",
+        "4": "i1"
+      }
+    ]
+  },
+  "MessageBus": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "MessageBus",
+      "moduleUrl": "asset:angular2/lib/src/web_workers/shared/message_bus.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "MessageBusSource": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "MessageBusSource",
+      "moduleUrl": "asset:angular2/lib/src/web_workers/shared/message_bus.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "MessageBusSink": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "MessageBusSink",
+      "moduleUrl": "asset:angular2/lib/src/web_workers/shared/message_bus.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "TimerWrapper": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "TimerWrapper",
+      "moduleUrl": "asset:angular2/lib/src/facade/async.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ObservableWrapper": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ObservableWrapper",
+      "moduleUrl": "asset:angular2/lib/src/facade/async.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "EventEmitter": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "EventEmitter",
+      "moduleUrl": "asset:angular2/lib/src/facade/async.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Subject": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Subject",
+      "moduleUrl": "asset:angular2/lib/src/facade/async.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "PromiseWrapper": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PromiseWrapper",
+      "moduleUrl": "asset:angular2/lib/src/facade/promise.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "PromiseCompleter": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PromiseCompleter",
+      "moduleUrl": "asset:angular2/lib/src/facade/promise.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
+}

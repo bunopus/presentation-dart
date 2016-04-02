@@ -1,0 +1,57 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.router.router_providers",
+    "3": [
+      {
+        "1": "router_providers_common.dart",
+        "2": [
+          "ROUTER_PROVIDERS_COMMON"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/core.dart",
+        "2": [
+          "Provider"
+        ],
+        "5": false
+      },
+      {
+        "1": "location/browser_platform_location.dart",
+        "2": [
+          "BrowserPlatformLocation"
+        ],
+        "5": false
+      },
+      {
+        "1": "location/platform_location.dart",
+        "2": [
+          "PlatformLocation"
+        ],
+        "5": false
+      }
+    ],
+    "6": "router_providers.dart"
+  },
+  "ROUTER_PROVIDERS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ROUTER_PROVIDERS",
+      "moduleUrl": "asset:angular2/lib/src/router/router_providers.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ROUTER_BINDINGS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ROUTER_BINDINGS",
+      "moduleUrl": "asset:angular2/lib/src/router/router_providers.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
+}

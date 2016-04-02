@@ -1,0 +1,67 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.platform.worker_app",
+    "3": [
+      {
+        "1": "package:angular2/src/core/zone/ng_zone.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/platform/server/webworker_adapter.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/platform/worker_app_common.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/web_workers/shared/isolate_message_bus.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/web_workers/shared/message_bus.dart",
+        "5": false
+      },
+      {
+        "1": "dart:isolate",
+        "5": false
+      }
+    ],
+    "6": "worker_app.dart"
+  },
+  "RENDER_SEND_PORT": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RENDER_SEND_PORT",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_app.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "WORKER_APP_APPLICATION": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "WORKER_APP_APPLICATION",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_app.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "WebWorkerMessageBusSink": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "WebWorkerMessageBusSink",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_app.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
+}

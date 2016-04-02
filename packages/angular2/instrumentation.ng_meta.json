@@ -1,0 +1,35 @@
+{
+  "ngDeps": {
+    "1": "angular2.instrumentation",
+    "4": [
+      {
+        "1": "src/core/profile/profile.dart",
+        "2": [
+          "wtfCreateScope",
+          "wtfLeave",
+          "wtfStartTimeRange",
+          "wtfEndTimeRange",
+          "WtfScopeFn"
+        ]
+      }
+    ],
+    "6": "instrumentation.dart",
+    "10": [
+      {
+        "1": "src/core/profile/profile.template.dart",
+        "4": "i0"
+      }
+    ]
+  },
+  "WtfScopeFn": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "WtfScopeFn",
+      "moduleUrl": "asset:angular2/lib/src/core/profile/wtf_impl.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
+}

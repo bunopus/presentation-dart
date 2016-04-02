@@ -1,0 +1,19 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/platform/browser_static.dart",
+        "5": false
+      }
+    ],
+    "6": "main.dart",
+    "10": [
+      {
+        "1": "package:angular2/platform/browser_static.template.dart",
+        "4": "i0"
+      }
+    ]
+  },
+  "definesAlias": false
+}

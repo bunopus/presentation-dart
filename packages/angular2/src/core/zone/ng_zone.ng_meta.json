@@ -1,0 +1,113 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.core.zone.ng_zone",
+    "3": [
+      {
+        "1": "package:angular2/src/facade/async.dart",
+        "2": [
+          "EventEmitter"
+        ],
+        "5": false
+      },
+      {
+        "1": "ng_zone_impl.dart",
+        "2": [
+          "NgZoneImpl",
+          "NgZoneError"
+        ],
+        "5": false
+      },
+      {
+        "1": "../../facade/exceptions.dart",
+        "2": [
+          "BaseException"
+        ],
+        "5": false
+      }
+    ],
+    "4": [
+      {
+        "1": "ng_zone_impl.dart",
+        "2": [
+          "NgZoneError"
+        ]
+      }
+    ],
+    "6": "ng_zone.dart",
+    "10": [
+      {
+        "1": "package:angular2/src/facade/async.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "ng_zone_impl.template.dart",
+        "4": "i1"
+      },
+      {
+        "1": "../../facade/exceptions.template.dart",
+        "4": "i2"
+      }
+    ]
+  },
+  "NgZone": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "NgZone",
+      "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ZeroArgFunction": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ZeroArgFunction",
+      "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone_impl.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ErrorHandlingFn": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ErrorHandlingFn",
+      "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone_impl.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "WrappedTimer": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "WrappedTimer",
+      "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone_impl.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "NgZoneError": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "NgZoneError",
+      "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone_impl.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "NgZoneImpl": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "NgZoneImpl",
+      "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone_impl.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
+}

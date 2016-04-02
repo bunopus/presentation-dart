@@ -1,0 +1,98 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.common.pipes.common_pipes",
+    "3": [
+      {
+        "1": "async_pipe.dart",
+        "2": [
+          "AsyncPipe"
+        ],
+        "5": false
+      },
+      {
+        "1": "uppercase_pipe.dart",
+        "2": [
+          "UpperCasePipe"
+        ],
+        "5": false
+      },
+      {
+        "1": "lowercase_pipe.dart",
+        "2": [
+          "LowerCasePipe"
+        ],
+        "5": false
+      },
+      {
+        "1": "json_pipe.dart",
+        "2": [
+          "JsonPipe"
+        ],
+        "5": false
+      },
+      {
+        "1": "slice_pipe.dart",
+        "2": [
+          "SlicePipe"
+        ],
+        "5": false
+      },
+      {
+        "1": "date_pipe.dart",
+        "2": [
+          "DatePipe"
+        ],
+        "5": false
+      },
+      {
+        "1": "number_pipe.dart",
+        "2": [
+          "DecimalPipe",
+          "PercentPipe",
+          "CurrencyPipe"
+        ],
+        "5": false
+      },
+      {
+        "1": "replace_pipe.dart",
+        "2": [
+          "ReplacePipe"
+        ],
+        "5": false
+      },
+      {
+        "1": "i18n_plural_pipe.dart",
+        "2": [
+          "I18nPluralPipe"
+        ],
+        "5": false
+      },
+      {
+        "1": "i18n_select_pipe.dart",
+        "2": [
+          "I18nSelectPipe"
+        ],
+        "5": false
+      }
+    ],
+    "6": "common_pipes.dart"
+  },
+  "COMMON_PIPES": {
+    "kind": "alias",
+    "value": [
+      "AsyncPipe",
+      "UpperCasePipe",
+      "LowerCasePipe",
+      "JsonPipe",
+      "SlicePipe",
+      "DecimalPipe",
+      "PercentPipe",
+      "CurrencyPipe",
+      "DatePipe",
+      "ReplacePipe",
+      "I18nPluralPipe",
+      "I18nSelectPipe"
+    ]
+  },
+  "definesAlias": true
+}

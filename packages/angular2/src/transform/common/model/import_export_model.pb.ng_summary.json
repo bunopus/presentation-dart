@@ -1,0 +1,73 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.transform.common.model.proto_import_export_model",
+    "3": [
+      {
+        "1": "package:protobuf/protobuf.dart",
+        "5": false
+      }
+    ],
+    "6": "import_export_model.pb.dart"
+  },
+  "ImportModel$json": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ImportModel$json",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/model/import_export_model.pb.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ExportModel$json": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ExportModel$json",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/model/import_export_model.pb.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ImportModel": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ImportModel",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/model/import_export_model.pb.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_ReadonlyImportModel": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_ReadonlyImportModel",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/model/import_export_model.pb.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ExportModel": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ExportModel",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/model/import_export_model.pb.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_ReadonlyExportModel": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_ReadonlyExportModel",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/model/import_export_model.pb.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
+}

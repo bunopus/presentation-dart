@@ -1,0 +1,34 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.i18n.xmb_serializer",
+    "3": [
+      {
+        "1": "package:angular2/src/facade/lang.dart",
+        "2": [
+          "isPresent"
+        ],
+        "5": false
+      },
+      {
+        "1": "message.dart",
+        "2": [
+          "Message",
+          "id"
+        ],
+        "5": false
+      }
+    ],
+    "6": "xmb_serializer.dart",
+    "10": [
+      {
+        "1": "package:angular2/src/facade/lang.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "message.template.dart",
+        "4": "i1"
+      }
+    ]
+  },
+  "definesAlias": false
+}

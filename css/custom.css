@@ -1,0 +1,64 @@
+.plain {
+    background: none !important;
+    margin: 0 !important;
+}
+
+pre.highlight {
+    font-size: 1em !important;
+    line-height: 1.4em !important;
+    padding: 10px;
+}
+
+pre.highlight.medium{
+    font-size: 0.8em !important;
+}
+
+.highlight-current-red.visible {
+    background-color: red;
+}
+
+.highlight-current-green.visible {
+    background-color: green;
+}
+
+span.slidenote {
+    font-size: 0.3em;
+    display: block;
+}
+
+.block {
+    display: inline-block;
+    vertical-align: middle !important;
+}
+
+img.block {
+    margin-right: -5px !important;
+}
+
+.logo {
+    width:150px;
+}
+
+.logo.small{
+    width:70px;
+}
+
+.icon {
+    height: 1.5em;
+}
+
+table.comparsion td, table.comparsion th{
+    border: none;
+}
+
+table.comparsion :not(.legend){
+    text-align: center;
+}
+
+table.comparsion thead tr th{
+    padding-bottom: 50px;
+}
+
+.bordered {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important;
+}

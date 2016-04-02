@@ -1,0 +1,236 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="utf-8">
+
+    <title>Evgeny Gusev - Dart: Unknown Hero</title>
+
+    <meta name="description" content="Presentation slides about Dart">
+    <meta name="author" content="Evgeny Gusev">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/night.css" id="theme">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/ir-black.css">
+
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <script defer="" src="main.dart.js"></script>
+    
+</head>
+
+<body>
+
+<div class="reveal">
+    <div class="slides">
+
+
+        <section data-background="img/wrike-bg.jpg">
+            <h2 style="padding-top: 100px">Dart</h2>
+            <h2 style="letter-spacing: 2px">Unknown Hero</h2>
+            <br><br><br>
+            <h4>Евгений Гусев</h4>
+        </section>
+
+        <section>
+            <img class="stretch" src="img/vaider-sad.jpg">
+        </section>
+
+        <section>
+            <h2>Зачем <span class="fragment">...</span> <span class="fragment">JS?</span></h2>
+        </section>
+        <section>
+            <section>
+      <pre class="highlight js">//get data from server
+var comments = api.getComments();
+      </pre>
+            </section>
+
+            <section>
+                <img src="img/troopers-walk.gif" class="stretch">
+            </section>
+
+            <section>
+                <pre class="highlight js">/**
+* @typedef Comment
+* @type Object
+* @property {Author} Name of the commenter
+*/
+
+/**
+* Used to collect comments from server
+* @public
+* @returns {[Comment]} Function returns array
+* of comments object
+*/
+
+function getComments(){
+                </pre>
+            </section>
+
+            <section>
+                <img src="img/jar-jar-thumbs.jpg">
+            </section>
+
+            <section>
+                <h2>JavaScript</h2>
+                <ul>
+                    <li class="fragment">Недокументированный</li>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </ul>
+            </section>
+        </section>
+
+        <section>
+            <section>
+            <pre class="highlight js">var comments = api.getComments();
+
+<span class="fragment fade-in" style="color:red;" data-fragment-index="1">some_internal_storage.push(comments);</span>
+//...
+<span class="fragment fade-in" data-fragment-index="0">comments.push({id:'separator'});</span>
+
+showComments(comments);
+            </pre>
+            </section>
+
+            <section>
+                <img src="img/jar-jar-thumbs.jpg">
+            </section>
+
+            <section>
+                <h2>JavaScript</h2>
+                <ul>
+                    <li>Недокументированный</li>
+                    <li class="fragment">Нестрогий</li>
+                    <br>
+                    <br>
+                    <br>
+                </ul>
+            </section>
+        </section>
+
+        <section>
+            <section data-background="img/jedi-temple.jpg"></section>
+
+            <section data-background="img/jedi-temple-blur.jpg">
+                <style>
+                    .size-5 { font-size: 1em !important; }
+                    .size-4 { font-size: 2em !important; }
+                    .size-3 { font-size: 3em !important; }
+                    .size-2 { font-size: 4em !important; }
+                    .size-1 { font-size: 5em !important; }
+                </style>
+                <div>
+                    <span class="size-1 bordered fragment" data-fragment-index="3">Dart</span><br>
+                    <span class="size-2 bordered fragment" data-fragment-index="2">C#</span><br>
+                    <span class="size-3 bordered fragment" data-fragment-index="1">Java</span><br>
+                    <span class="size-4 bordered fragment" data-fragment-index="0">C++</span><br>
+                    <span class="size-5 bordered">SmallTalk</span>
+                </div>
+            </section>
+            <section data-background="img/tatooine.png"></section>
+            <section data-background="img/tatooine-blur.png">
+                <h2 class="bordered">JavaScript</h2>
+            </section>
+            <section data-background="img/tatooine-blur.png">
+                <h1 class="bordered">this</h1>
+            </section>
+            <section>
+                <h2>JavaScript</h2>
+                <ul>
+                    <li>Недокументированный</li>
+                    <li>Нестрогий</li>
+                    <li class="fragment">Непродуманный</li>
+                    <br>
+                </ul>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <img src="img/npm-hell.png">
+            </section>
+            <section>
+                <h2>JavaScript</h2>
+                <ul>
+                    <li>Недокументированный</li>
+                    <li>Нестрогий</li>
+                    <li>Непродуманный</li>
+                    <li class="fragment">Небогатый</li>
+                </ul>
+            </section>
+            <section>
+                <h2>left-pad</h2>
+            </section>
+        </section>
+
+    </div>
+</div>
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+
+    // Full list of configuration options available at:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [
+            {
+                src: 'lib/js/classList.js', condition: function () {
+                return !document.body.classList;
+            }
+            },
+            {
+                src: 'plugin/markdown/marked.js', condition: function () {
+                return !!document.querySelector('[data-markdown]');
+            }
+            },
+            {
+                src: 'plugin/markdown/markdown.js', condition: function () {
+                return !!document.querySelector('[data-markdown]');
+            }
+            },
+            {
+                src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                [].forEach.call(document.querySelectorAll('.highlight, pre code'), function (v, i) {
+                    hljs.highlightBlock(v);
+                });
+            }
+            },
+            {src: 'plugin/zoom-js/zoom.js', async: true},
+            {src: 'plugin/notes/notes.js', async: true}
+        ]
+    });
+
+</script>
+
+
+</body></html>

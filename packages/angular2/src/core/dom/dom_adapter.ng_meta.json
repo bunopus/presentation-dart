@@ -1,0 +1,28 @@
+{
+  "ngDeps": {
+    "1": "angular2.dom_adapter_reexport",
+    "4": [
+      {
+        "1": "package:angular2/src/platform/dom/dom_adapter.dart"
+      }
+    ],
+    "6": "dom_adapter.dart",
+    "10": [
+      {
+        "1": "package:angular2/src/platform/dom/dom_adapter.template.dart",
+        "4": "i0"
+      }
+    ]
+  },
+  "DomAdapter": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DomAdapter",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/dom_adapter.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
+}

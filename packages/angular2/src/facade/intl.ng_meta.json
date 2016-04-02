@@ -1,0 +1,43 @@
+{
+  "ngDeps": {
+    "1": "facade.intl",
+    "3": [
+      {
+        "1": "package:intl/intl.dart",
+        "5": false
+      }
+    ],
+    "6": "intl.dart"
+  },
+  "NumberFormatStyle": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "NumberFormatStyle",
+      "moduleUrl": "asset:angular2/lib/src/facade/intl.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "NumberFormatter": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "NumberFormatter",
+      "moduleUrl": "asset:angular2/lib/src/facade/intl.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DateFormatter": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DateFormatter",
+      "moduleUrl": "asset:angular2/lib/src/facade/intl.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
+}

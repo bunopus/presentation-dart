@@ -1,0 +1,105 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.core.linker.view_ref",
+    "3": [
+      {
+        "1": "package:angular2/src/facade/exceptions.dart",
+        "2": [
+          "unimplemented"
+        ],
+        "5": false
+      },
+      {
+        "1": "../change_detection/change_detector_ref.dart",
+        "2": [
+          "ChangeDetectorRef"
+        ],
+        "5": false
+      },
+      {
+        "1": "view.dart",
+        "2": [
+          "AppView",
+          "HostViewFactory"
+        ],
+        "5": false
+      }
+    ],
+    "6": "view_ref.dart",
+    "10": [
+      {
+        "1": "package:angular2/src/facade/exceptions.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "../change_detection/change_detector_ref.template.dart",
+        "4": "i1"
+      },
+      {
+        "1": "view.template.dart",
+        "4": "i2"
+      }
+    ]
+  },
+  "ViewRef": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ViewRef",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "HostViewRef": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "HostViewRef",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "EmbeddedViewRef": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "EmbeddedViewRef",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ViewRef_": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ViewRef_",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "HostViewFactoryRef": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "HostViewFactoryRef",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "HostViewFactoryRef_": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "HostViewFactoryRef_",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
+}

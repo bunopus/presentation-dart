@@ -1,0 +1,112 @@
+{
+  "ngDeps": {
+    "1": "angular2.i18n",
+    "4": [
+      {
+        "1": "src/i18n/message.dart"
+      },
+      {
+        "1": "src/i18n/xmb_serializer.dart"
+      },
+      {
+        "1": "src/i18n/message_extractor.dart"
+      }
+    ],
+    "6": "i18n.dart",
+    "10": [
+      {
+        "1": "src/i18n/message.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "src/i18n/xmb_serializer.template.dart",
+        "4": "i1"
+      },
+      {
+        "1": "src/i18n/message_extractor.template.dart",
+        "4": "i2"
+      }
+    ]
+  },
+  "Message": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Message",
+      "moduleUrl": "asset:angular2/lib/src/i18n/message.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "I18N_ATTR": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "I18N_ATTR",
+      "moduleUrl": "asset:angular2/lib/src/i18n/message_extractor.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "I18N_ATTR_PREFIX": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "I18N_ATTR_PREFIX",
+      "moduleUrl": "asset:angular2/lib/src/i18n/message_extractor.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ExtractionResult": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ExtractionResult",
+      "moduleUrl": "asset:angular2/lib/src/i18n/message_extractor.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "I18nExtractionError": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "I18nExtractionError",
+      "moduleUrl": "asset:angular2/lib/src/i18n/message_extractor.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "MessageExtractor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "MessageExtractor",
+      "moduleUrl": "asset:angular2/lib/src/i18n/message_extractor.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_Part": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_Part",
+      "moduleUrl": "asset:angular2/lib/src/i18n/message_extractor.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_StringifyVisitor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_StringifyVisitor",
+      "moduleUrl": "asset:angular2/lib/src/i18n/message_extractor.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
+}

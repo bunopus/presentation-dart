@@ -1,0 +1,23 @@
+{
+  "ngDeps": {
+    "1": "angular2.transform.template_compiler.reflection.reflection_capabilities",
+    "3": [
+      {
+        "1": "package:angular2/src/core/reflection/types.dart",
+        "5": false
+      }
+    ],
+    "6": "reflection_capabilities.dart"
+  },
+  "NullReflectionCapabilities": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "NullReflectionCapabilities",
+      "moduleUrl": "asset:angular2/lib/src/transform/template_compiler/reflection/reflection_capabilities.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
+}

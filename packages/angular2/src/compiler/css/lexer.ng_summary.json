@@ -1,0 +1,163 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.compiler.css.lexer",
+    "3": [
+      {
+        "1": "package:angular2/src/facade/lang.dart",
+        "2": [
+          "NumberWrapper",
+          "StringWrapper",
+          "isPresent",
+          "resolveEnumToken"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/exceptions.dart",
+        "2": [
+          "BaseException"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/compiler/chars.dart",
+        "2": [
+          "isWhitespace",
+          "$EOF",
+          "$HASH",
+          "$TILDA",
+          "$CARET",
+          "$PERCENT",
+          "$$",
+          "$_",
+          "$COLON",
+          "$SQ",
+          "$DQ",
+          "$EQ",
+          "$SLASH",
+          "$BACKSLASH",
+          "$PERIOD",
+          "$STAR",
+          "$PLUS",
+          "$LPAREN",
+          "$RPAREN",
+          "$LBRACE",
+          "$RBRACE",
+          "$LBRACKET",
+          "$RBRACKET",
+          "$PIPE",
+          "$COMMA",
+          "$SEMICOLON",
+          "$MINUS",
+          "$BANG",
+          "$QUESTION",
+          "$AT",
+          "$AMPERSAND",
+          "$GT",
+          "$a",
+          "$A",
+          "$z",
+          "$Z",
+          "$0",
+          "$9",
+          "$FF",
+          "$CR",
+          "$LF",
+          "$VTAB"
+        ],
+        "5": false
+      }
+    ],
+    "4": [
+      {
+        "1": "package:angular2/src/compiler/chars.dart",
+        "2": [
+          "$EOF",
+          "$AT",
+          "$RBRACE",
+          "$LBRACE",
+          "$LBRACKET",
+          "$RBRACKET",
+          "$LPAREN",
+          "$RPAREN",
+          "$COMMA",
+          "$COLON",
+          "$SEMICOLON",
+          "isWhitespace"
+        ]
+      }
+    ],
+    "6": "lexer.dart"
+  },
+  "CssTokenType": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CssTokenType",
+      "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "CssLexerMode": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CssLexerMode",
+      "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "LexedCssResult": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "LexedCssResult",
+      "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "CssToken": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CssToken",
+      "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "CssLexer": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CssLexer",
+      "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "CssScannerError": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CssScannerError",
+      "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "CssScanner": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CssScanner",
+      "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
+}

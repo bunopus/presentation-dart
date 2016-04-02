@@ -1,0 +1,72 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.testing.test_injector",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "2": [
+          "Injector",
+          "Provider",
+          "PLATFORM_INITIALIZER"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/exceptions.dart",
+        "2": [
+          "BaseException",
+          "ExceptionHandler"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/collection.dart",
+        "2": [
+          "ListWrapper"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/lang.dart",
+        "2": [
+          "FunctionWrapper",
+          "isPresent",
+          "Type"
+        ],
+        "5": false
+      }
+    ],
+    "6": "test_injector.dart"
+  },
+  "TestInjector": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "TestInjector",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "InjectSetupWrapper": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "InjectSetupWrapper",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "FunctionWithParamTokens": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "FunctionWithParamTokens",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
+}

@@ -1,0 +1,55 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.testing.testing_internal",
+    "3": [
+      {
+        "1": "testing_internal_core.dart",
+        "4": "core",
+        "5": false
+      },
+      {
+        "1": "package:angular2/platform/testing/browser.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/collection.dart",
+        "2": [
+          "StringMapWrapper"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/zone/ng_zone.dart",
+        "2": [
+          "NgZone"
+        ],
+        "5": false
+      }
+    ],
+    "4": [
+      {
+        "1": "testing_internal_core.dart",
+        "3": [
+          "beforeEachProviders",
+          "beforeEachBindings",
+          "beforeEach",
+          "it",
+          "iit",
+          "xit",
+          "testSetup",
+          "describe",
+          "ddescribe",
+          "xdescribe"
+        ]
+      },
+      {
+        "1": "test_injector.dart",
+        "2": [
+          "inject"
+        ]
+      }
+    ],
+    "6": "testing_internal.dart"
+  },
+  "definesAlias": false
+}
