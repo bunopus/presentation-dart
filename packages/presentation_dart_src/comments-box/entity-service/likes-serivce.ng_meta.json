@@ -1,0 +1,77 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      },
+      {
+        "1": "package:presentation_dart_src/comments-box/entity-service/entities-service.dart",
+        "5": false
+      },
+      {
+        "1": "package:presentation_dart_src/comments-box/models/like.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "LikesService",
+        "4": [
+          {
+            "1": "Injectable",
+            "4": false,
+            "5": false,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ],
+        "7": [
+          {
+            "1": "url",
+            "2": [
+              {
+                "1": "override",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "6": "likes-serivce.dart",
+    "10": [
+      {
+        "1": "package:angular2/core.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "package:presentation_dart_src/comments-box/entity-service/entities-service.template.dart",
+        "4": "i1"
+      },
+      {
+        "1": "package:presentation_dart_src/comments-box/models/like.template.dart",
+        "4": "i2"
+      }
+    ]
+  },
+  "LikesService": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "LikesService",
+      "moduleUrl": "asset:presentation_dart_src/lib/comments-box/entity-service/likes-serivce.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "definesAlias": false
+}

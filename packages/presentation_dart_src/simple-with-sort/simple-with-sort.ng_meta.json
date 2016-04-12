@@ -1,0 +1,96 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      },
+      {
+        "1": "package:presentation_dart_src/comments-box/comments-box.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "SimpleWithSort",
+        "4": [
+          {
+            "1": "Component",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'simple-with-sort'"
+              },
+              {
+                "1": "templateUrl",
+                "2": "'simple-with-sort.html'"
+              },
+              {
+                "1": "directives",
+                "2": "const [CommentsBox]"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false
+          }
+        ],
+        "8": [
+          {
+            "2": "CommentsBox"
+          }
+        ]
+      }
+    ],
+    "6": "simple-with-sort.dart",
+    "10": [
+      {
+        "1": "package:angular2/core.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "package:presentation_dart_src/comments-box/comments-box.template.dart",
+        "4": "i1"
+      }
+    ]
+  },
+  "SimpleWithSort": {
+    "kind": "type",
+    "value": {
+      "class": "Directive",
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "simple-with-sort",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "SimpleWithSort",
+        "moduleUrl": "asset:presentation_dart_src/lib/simple-with-sort/simple-with-sort.dart",
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "diDeps": []
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "<comments-box sorting=\"true\"></comments-box>",
+        "templateUrl": "asset:presentation_dart_src/lib/simple-with-sort/simple-with-sort.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      },
+      "providers": []
+    }
+  },
+  "definesAlias": false
+}

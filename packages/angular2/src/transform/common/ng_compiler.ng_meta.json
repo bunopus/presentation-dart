@@ -61,6 +61,10 @@
         "5": false
       },
       {
+        "1": "package:angular2/i18n.dart",
+        "5": false
+      },
+      {
         "1": "xhr_impl.dart",
         "5": false
       },
@@ -128,12 +132,16 @@
         "4": "i13"
       },
       {
-        "1": "xhr_impl.template.dart",
+        "1": "package:angular2/i18n.template.dart",
         "4": "i14"
       },
       {
-        "1": "url_resolver.template.dart",
+        "1": "xhr_impl.template.dart",
         "4": "i15"
+      },
+      {
+        "1": "url_resolver.template.dart",
+        "4": "i16"
       }
     ]
   },

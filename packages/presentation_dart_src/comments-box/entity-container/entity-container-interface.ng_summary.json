@@ -1,0 +1,14 @@
+{
+  "ngDeps": null,
+  "EntityContainerInterface": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "EntityContainerInterface",
+      "moduleUrl": "asset:presentation_dart_src/lib/comments-box/entity-container/entity-container-interface.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
+}

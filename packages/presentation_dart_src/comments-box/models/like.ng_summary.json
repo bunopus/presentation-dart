@@ -1,0 +1,23 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:presentation_dart_src/comments-box/models/entity.dart",
+        "5": false
+      }
+    ],
+    "6": "like.dart"
+  },
+  "Like": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Like",
+      "moduleUrl": "asset:presentation_dart_src/lib/comments-box/models/like.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
+}

@@ -1,0 +1,120 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      },
+      {
+        "1": "./tab.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "Tabs",
+        "4": [
+          {
+            "1": "Component",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'tabs'"
+              },
+              {
+                "1": "template",
+                "2": "'''\n    <div class=\"menu\">\n      <div class=\"tabs\">\n        <div *ngFor=\"#tab of tabs\" (click)=\"selectTab(tab)\" [class.active]=\"tab.active\" class=\"tab\">\n          <div class=\"tab-title\">{{tab.title}}</div>\n        </div>\n      </div>\n    </div>\n    <ng-content></ng-content>\n  '''"
+              },
+              {
+                "1": "directives",
+                "2": "const [Tab]"
+              },
+              {
+                "1": "styleUrls",
+                "2": "const ['tabs.css']"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false
+          }
+        ],
+        "6": [
+          "AfterContentInit"
+        ],
+        "7": [
+          {
+            "1": "tabs",
+            "2": [
+              {
+                "1": "ContentChildren",
+                "2": [
+                  "Tab"
+                ],
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          }
+        ],
+        "8": [
+          {
+            "2": "Tab"
+          }
+        ]
+      }
+    ],
+    "6": "tabs.dart",
+    "8": [
+      "tabs"
+    ]
+  },
+  "Tabs": {
+    "kind": "type",
+    "value": {
+      "class": "Directive",
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "tabs",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "Tabs",
+        "moduleUrl": "asset:presentation_dart_src/lib/tabs-component/tabs.dart",
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "diDeps": []
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [
+        4
+      ],
+      "template": {
+        "encapsulation": 0,
+        "template": "    <div class=\"menu\">\n      <div class=\"tabs\">\n        <div *ngFor=\"#tab of tabs\" (click)=\"selectTab(tab)\" [class.active]=\"tab.active\" class=\"tab\">\n          <div class=\"tab-title\">{{tab.title}}</div>\n        </div>\n      </div>\n    </div>\n    <ng-content></ng-content>\n  ",
+        "templateUrl": "asset:presentation_dart_src/lib/tabs-component/tabs.dart",
+        "styles": [],
+        "styleUrls": [
+          "asset:presentation_dart_src/lib/tabs-component/tabs.css"
+        ],
+        "ngContentSelectors": [
+          "*"
+        ]
+      },
+      "providers": []
+    }
+  },
+  "definesAlias": false
+}

@@ -48,6 +48,13 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/core/reflection/reflector_reader.dart",
+        "2": [
+          "ReflectorReader"
+        ],
+        "5": false
+      },
+      {
         "1": "package:angular2/src/core/reflection/reflection.dart",
         "2": [
           "reflector"
@@ -67,6 +74,12 @@
             "7": true,
             "8": false
           }
+        ],
+        "5": [
+          {
+            "1": "ReflectorReader",
+            "4": "_reflector"
+          }
         ]
       }
     ],
@@ -81,7 +94,18 @@
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
-      "diDeps": []
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
     }
   },
   "definesAlias": false

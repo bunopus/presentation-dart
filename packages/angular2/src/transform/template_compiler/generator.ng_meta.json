@@ -56,6 +56,10 @@
         "5": false
       },
       {
+        "1": "package:angular2/i18n.dart",
+        "5": false
+      },
+      {
         "1": "reflection/processor.dart",
         "4": "reg",
         "5": false
@@ -116,16 +120,20 @@
         "4": "i10"
       },
       {
-        "1": "reflection/processor.template.dart",
+        "1": "package:angular2/i18n.template.dart",
         "4": "i11"
       },
       {
-        "1": "reflection/reflection_capabilities.template.dart",
+        "1": "reflection/processor.template.dart",
         "4": "i12"
       },
       {
-        "1": "compile_data_creator.template.dart",
+        "1": "reflection/reflection_capabilities.template.dart",
         "4": "i13"
+      },
+      {
+        "1": "compile_data_creator.template.dart",
+        "4": "i14"
       }
     ]
   },

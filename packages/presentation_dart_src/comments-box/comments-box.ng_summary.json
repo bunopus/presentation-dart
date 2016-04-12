@@ -1,0 +1,206 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      },
+      {
+        "1": "package:presentation_dart_src/tabs-component/tabs.dart",
+        "5": false
+      },
+      {
+        "1": "package:presentation_dart_src/tabs-component/tab.dart",
+        "5": false
+      },
+      {
+        "1": "package:presentation_dart_src/comments-box/comments-container/comments-container.dart",
+        "5": false
+      },
+      {
+        "1": "package:presentation_dart_src/comments-box/likes-container/likes-container.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "CommentsBox",
+        "4": [
+          {
+            "1": "Component",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'comments-box'"
+              },
+              {
+                "1": "templateUrl",
+                "2": "'comments-box.html'"
+              },
+              {
+                "1": "styleUrls",
+                "2": "const ['comments-box.css']"
+              },
+              {
+                "1": "directives",
+                "2": "const [Tabs, Tab, CommentsContainer, LikesContainer]"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "String",
+            "3": [
+              "const Attribute('sorting')"
+            ],
+            "4": "srtg"
+          },
+          {
+            "1": "String",
+            "3": [
+              "const Attribute('likes')"
+            ],
+            "4": "lks"
+          },
+          {
+            "1": "String",
+            "3": [
+              "const Attribute('stream')"
+            ],
+            "4": "strm"
+          }
+        ],
+        "7": [
+          {
+            "1": "tabs",
+            "2": [
+              {
+                "1": "ViewChild",
+                "2": [
+                  "Tabs"
+                ],
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          }
+        ],
+        "8": [
+          {
+            "2": "Tabs"
+          },
+          {
+            "2": "Tab"
+          },
+          {
+            "2": "CommentsContainer"
+          },
+          {
+            "2": "LikesContainer"
+          }
+        ]
+      }
+    ],
+    "6": "comments-box.dart",
+    "8": [
+      "tabs"
+    ]
+  },
+  "CommentsBox": {
+    "kind": "type",
+    "value": {
+      "class": "Directive",
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "comments-box",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "CommentsBox",
+        "moduleUrl": "asset:presentation_dart_src/lib/comments-box/comments-box.dart",
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "diDeps": [
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "String",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": true,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          },
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "String",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": true,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          },
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "String",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": true,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          }
+        ]
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 0,
+        "template": "<div class=\"post\">\n    <header class=\"post-header\">\n        <img class=\"avatar\" src=\"img/dart-avatar.jpeg\">\n\n        <h2 class=\"title\">Join the Dark Side!</h2>\n\n        <p class=\"meta\">\n            By <a class=\"author\" href=\"#\">Darth Vaider</a>\n        </p>\n    </header>\n\n    <div class=\"description\">\n        <p>\n            *Breathing* Pshhhh pshhhh pshhhhh\n        </p>\n    </div>\n\n     <div class=\"menu\">\n         <tabs>\n             <div class=\"tool-icon\" (click)=\"sort()\" *ngIf=\"sorting\">\n                 <img *ngIf=\"sortedAsc\" class=\"plain\" src=\"img/up_arrow.png\">\n                 <img *ngIf=\"!sortedAsc\" class=\"plain\" src=\"img/down_arrow.png\">\n             </div>\n             <div class=\"tool-icon\" (click)=\"streamingSwitch()\" *ngIf=\"stream\">\n                 <img *ngIf=\"streamOn\" class=\"plain\" src=\"img/stream-on.png\">\n                 <img *ngIf=\"!streamOn\" class=\"plain\" src=\"img/stream-off.png\">\n             </div>\n            <tab tabTitle=\"Comments\">\n                <comments-container #container></comments-container>\n            </tab>\n            <tab tabTitle=\"Likes\" *ngIf=\"likes\">\n                <likes-container #container></likes-container>\n            </tab>\n        </tabs>\n     </div>\n</div>\n",
+        "templateUrl": "asset:presentation_dart_src/lib/comments-box/comments-box.html",
+        "styles": [],
+        "styleUrls": [
+          "asset:presentation_dart_src/lib/comments-box/comments-box.css"
+        ],
+        "ngContentSelectors": []
+      },
+      "providers": []
+    }
+  },
+  "definesAlias": false
+}

@@ -134,6 +134,16 @@
       "constConstructor": null
     }
   },
+  "TRANSLATIONS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "TRANSLATIONS",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/options.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
   "TransformerOptions": {
     "kind": "type",
     "value": {

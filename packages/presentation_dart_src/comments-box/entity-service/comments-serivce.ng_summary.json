@@ -1,0 +1,63 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      },
+      {
+        "1": "package:presentation_dart_src/comments-box/entity-service/entities-service.dart",
+        "5": false
+      },
+      {
+        "1": "package:presentation_dart_src/comments-box/models/comment.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "CommentsService",
+        "4": [
+          {
+            "1": "Injectable",
+            "4": false,
+            "5": false,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ],
+        "7": [
+          {
+            "1": "url",
+            "2": [
+              {
+                "1": "override",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "6": "comments-serivce.dart"
+  },
+  "CommentsService": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "CommentsService",
+      "moduleUrl": "asset:presentation_dart_src/lib/comments-box/entity-service/comments-serivce.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "definesAlias": false
+}

@@ -1794,7 +1794,18 @@
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
-      "diDeps": []
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
     }
   },
   "ViewResolver": {
@@ -1806,7 +1817,18 @@
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
-      "diDeps": []
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
     }
   },
   "Compiler": {
@@ -3710,6 +3732,16 @@
     "value": {
       "class": "Identifier",
       "name": "ParseException",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/parser.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "SplitInterpolation": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "SplitInterpolation",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/parser.dart",
       "prefix": null,
       "constConstructor": null

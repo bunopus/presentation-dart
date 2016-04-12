@@ -38,6 +38,13 @@
         "5": false
       },
       {
+        "1": "reflection/reflector_reader.dart",
+        "2": [
+          "ReflectorReader"
+        ],
+        "5": false
+      },
+      {
         "1": "package:angular2/src/core/testability/testability.dart",
         "2": [
           "TestabilityRegistry"
@@ -64,8 +71,12 @@
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/core/testability/testability.template.dart",
+        "1": "reflection/reflector_reader.template.dart",
         "4": "i4"
+      },
+      {
+        "1": "package:angular2/src/core/testability/testability.template.dart",
+        "4": "i5"
       }
     ]
   },

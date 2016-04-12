@@ -1,0 +1,14 @@
+{
+  "ngDeps": null,
+  "LimitedList": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "LimitedList",
+      "moduleUrl": "asset:presentation_dart_src/lib/limited-list.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
+}

@@ -1,0 +1,132 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      },
+      {
+        "1": "package:presentation_dart_src/comments-box/entity-container/entity-container-interface.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "Tab",
+        "4": [
+          {
+            "1": "Component",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'tab'"
+              },
+              {
+                "1": "template",
+                "2": "'''\n    <div [hidden]=\"!active\">\n      <ng-content></ng-content>\n    </div>\n  '''"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false
+          }
+        ],
+        "7": [
+          {
+            "1": "title",
+            "2": [
+              {
+                "1": "Input",
+                "2": [
+                  "'tabTitle'"
+                ],
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "active",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "container",
+            "2": [
+              {
+                "1": "ContentChild",
+                "2": [
+                  "'container'"
+                ],
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "6": "tab.dart",
+    "8": [
+      "container"
+    ]
+  },
+  "Tab": {
+    "kind": "type",
+    "value": {
+      "class": "Directive",
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "tab",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "Tab",
+        "moduleUrl": "asset:presentation_dart_src/lib/tabs-component/tab.dart",
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "diDeps": []
+      },
+      "changeDetection": 5,
+      "inputs": {
+        "title": "tabTitle",
+        "active": "active"
+      },
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "    <div [hidden]=\"!active\">\n      <ng-content></ng-content>\n    </div>\n  ",
+        "templateUrl": "asset:presentation_dart_src/lib/tabs-component/tab.dart",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": [
+          "*"
+        ]
+      },
+      "providers": []
+    }
+  },
+  "definesAlias": false
+}

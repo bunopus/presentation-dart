@@ -131,6 +131,16 @@
       "constConstructor": null
     }
   },
+  "NG_PROJECT_AS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "NG_PROJECT_AS",
+      "moduleUrl": "asset:angular2/lib/src/compiler/template_preparser.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
   "PreparsedElementType": {
     "kind": "type",
     "value": {

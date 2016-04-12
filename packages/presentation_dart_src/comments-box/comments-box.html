@@ -1,0 +1,36 @@
+<div class="post">
+    <header class="post-header">
+        <img class="avatar" src="img/dart-avatar.jpeg">
+
+        <h2 class="title">Join the Dark Side!</h2>
+
+        <p class="meta">
+            By <a class="author" href="#">Darth Vaider</a>
+        </p>
+    </header>
+
+    <div class="description">
+        <p>
+            *Breathing* Pshhhh pshhhh pshhhhh
+        </p>
+    </div>
+
+     <div class="menu">
+         <tabs>
+             <div class="tool-icon" (click)="sort()" *ngIf="sorting">
+                 <img *ngIf="sortedAsc" class="plain" src="img/up_arrow.png">
+                 <img *ngIf="!sortedAsc" class="plain" src="img/down_arrow.png">
+             </div>
+             <div class="tool-icon" (click)="streamingSwitch()" *ngIf="stream">
+                 <img *ngIf="streamOn" class="plain" src="img/stream-on.png">
+                 <img *ngIf="!streamOn" class="plain" src="img/stream-off.png">
+             </div>
+            <tab tabTitle="Comments">
+                <comments-container #container></comments-container>
+            </tab>
+            <tab tabTitle="Likes" *ngIf="likes">
+                <likes-container #container></likes-container>
+            </tab>
+        </tabs>
+     </div>
+</div>

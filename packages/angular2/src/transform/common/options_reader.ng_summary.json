@@ -17,6 +17,10 @@
       {
         "1": "options.dart",
         "5": false
+      },
+      {
+        "1": "./url_resolver.dart",
+        "5": false
       }
     ],
     "6": "options_reader.dart"

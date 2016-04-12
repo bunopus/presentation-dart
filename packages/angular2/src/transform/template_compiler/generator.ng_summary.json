@@ -56,6 +56,10 @@
         "5": false
       },
       {
+        "1": "package:angular2/i18n.dart",
+        "5": false
+      },
+      {
         "1": "reflection/processor.dart",
         "4": "reg",
         "5": false

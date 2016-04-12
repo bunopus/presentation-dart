@@ -59,7 +59,7 @@
         <section>
             <section>
       <pre class="highlight js">//get data from server
-var comments = api.getComments();
+let comments = api.getComments();
       </pre>
             </section>
 
@@ -103,14 +103,14 @@ function getComments(){
 
         <section>
             <section>
-            <pre class="highlight js">var comments = api.getComments();
+                <pre class="highlight js">var comments = api.getComments();
 
 <span class="fragment fade-in" style="color:red;" data-fragment-index="1">some_internal_storage.push(comments);</span>
 //...
 <span class="fragment fade-in" data-fragment-index="0">comments.push({id:'separator'});</span>
 
 showComments(comments);
-            </pre>
+                </pre>
             </section>
 
             <section>
@@ -184,6 +184,294 @@ showComments(comments);
             </section>
         </section>
 
+        <section data-background="img/corusant-bg.png">
+            <h1 class="bordered">Dart Features</h1>
+        </section>
+
+        <section data-background="img/corusant-bg-blur.png">
+            <h1 class="bordered">Dart Features</h1>
+            <ul style="font-size: 2em">
+                <li class="bordered fragment">Types</li>
+                <li class="bordered fragment">ООП</li>
+                <li class="bordered fragment">Rich framework</li>
+                <li class="bordered fragment">Analyzer</li>
+                <li class="bordered fragment">Tree Shaking</li>
+                <li class="bordered fragment">One entry point</li>
+            </ul>
+        </section>
+
+        <section>
+            <section>
+                <h2>Types</h2>
+            </section>
+            <section class="stretch">
+                <simple></simple>
+            </section>
+
+            <section>
+                <pre class="highlight dart stretch"><code>import 'dart:html';
+import 'dart:convert';
+
+class CommentsService {
+
+  dynamic getComments() {
+    return HttpRequest.request("api/comments",
+                    method: "GET").then((result) {
+
+      return JSON.decode(result.responseText);
+    });
+  }
+}</code></pre>
+            </section>
+
+            <section>
+                <pre class="highlight dart stretch"><code data-noescape="">
+class Comment {
+  String description;
+  String author;
+  String avatarUrl;
+  DateTime postedAt;
+}
+</code></pre>
+            </section>
+
+            <section>
+                <pre class="highlight dart stretch"><code data-noescape="">
+Future&lt;<span class="fragment highlight-current-blue" data-fragment-index="0">List&lt;Comment&gt;</span>&gt; getComments() {
+  return HttpRequest.request("api/comments",
+    method: "GET").then((HttpRequest result) {
+
+      var raw = JSON.decode(result.responseText);
+
+      <span class="fragment highlight-current-blue" data-fragment-index="0">return raw.map((Map rawComment) =&gt;</span>
+      <span class="fragment highlight-current-blue" data-fragment-index="0">           new Comment.<span class="fragment highlight-red">fromMap(rawComment))</span>;</span>
+  });
+}
+</code></pre>
+            </section>
+
+            <section>
+                <pre class="highlight dart stretch"><code data-noescape="">
+//...
+  .then((HttpRequest result) {
+    /* some code */
+  })
+//...
+</code></pre>
+            </section>
+
+            <section data-transition="fade-in">
+                <pre class="highlight dart stretch"><code data-noescape="">
+//...
+  .then((HttpRequest result) {
+    /* some code */
+  })
+  <span class="fragment fade-in highlight-current-blue">.catchError(handle401Error,
+     test: (e) =&gt; e is NotAuthenticatedException)</span>
+//...
+</code></pre>
+            </section>
+
+            <section data-transition="fade-in">
+                <pre class="highlight dart stretch"><code data-noescape="">
+//...
+  .then((HttpRequest result) {
+    /* some code */
+  }).
+  .catchError(handle401Error,
+     test: (e) =&gt; e is NotAuthenticatedException)
+  <span class="fragment fade-in highlight-current-blue">.whenComplete(closeSocketOrServer);</span>
+//...
+</code></pre>
+            </section>
+
+            <section>
+                <pre class="highlight dart stretch"><code data-noescape="">
+Future&lt;List&lt;Comment&gt;&gt; getComments() {
+  return HttpRequest.request("api/comments",
+    method: "GET").then((HttpRequest result) {
+
+      var raw = JSON.decode(result.responseText);
+      return raw.map((Map rawComment) =&gt;
+         new Comment.fromMap(rawComment));
+  }).catchError((Error e){
+    print(e);
+    throw e;
+  });
+}
+</code></pre>
+            </section>
+
+        </section>
+
+        <section>
+            <section>
+                <h2>Collections</h2>
+            </section>
+            <section>
+                <img src="img/sw-collecton.jpg">
+            </section>
+            <section>
+                <simple-with-sort></simple-with-sort>
+            </section>
+
+            <section>
+                <pre class="highlight dart stretch"><code data-noescape="">
+List&lt;Comment&gt; sortAndGetTopComments
+    (List&lt;Comment&gt; comments, <span class="fragment highlight-current-blue" data-fragment-index="0">{int count: 5}</span>) {
+
+    return comments
+      <span class="fragment highlight-current-blue" data-fragment-index="1">..sort((a, b) =&gt;
+        return a.postedAt.compareTo(b.postedAt)
+      )</span>
+      <span class="fragment highlight-current-blue" data-fragment-index="2">..sublist(0, count);</span>
+}
+
+</code></pre>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h1>OOP</h1>
+            </section>
+            <section>
+                <comments-and-likes></comments-and-likes>
+            </section>
+            <section>
+                <pre class="highlight dart"><code data-noescape="">
+abstract class Entity {
+  String author;
+  String avatarUrl;
+  DateTime postedAt;
+}
+</code>
+                </pre>
+            </section>
+            <section>
+                <pre class="highlight dart"><code>
+class Comment extends Entity {
+  String description;
+}
+</code>
+                </pre>
+            </section>
+            <section>
+                <pre class="highlight dart stretch" style="font-size: 0.95em !important"><code data-noescape="" data-trim="">
+abstract class Serializable {
+    String serialize();
+}
+<span class="fragment">
+class Comment extends Entity implements Serializable {
+  String description;
+
+  String serialize() { //...
+}</span></code></pre>
+            </section>
+            <section>
+                <pre class="highlight dart stretch"><code data-noescape="" data-trim="">
+abstract class Entity {
+    //...
+    String toString();
+}
+<span class="fragment">
+class Comment extends Entity {
+    //...
+    @override
+    String toString() { //...
+}</span></code></pre>
+            </section>
+            <section>
+                <pre class="highlight dart stretch" style="font-size: 0.88em !important"><code data-noescape="" data-trim="">
+class DateFormatter {
+    String formatDate(DateTime d){
+        var formatter = new DateFormat('yyyy-MM-dd hh:mm');
+        return formatter.format(d);
+    }
+}
+<span class="fragment">
+class Comment extends Entity with DateFormatter {
+    //...
+    @override
+    String toString() {
+        //...
+        var stringedDate = formatDate(postedAt);
+    }
+}</span></code></pre>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h1>Streams</h1>
+            </section>
+            <section>
+                <comments-stream></comments-stream>
+            </section>
+            <section>
+                <pre class="highlight dart stretch" style="font-size: 0.95em !important"><code data-noescape="" data-trim="">
+abstract class CommentsService {
+
+    final StreamController&lt;Comment&gt; _controller =
+                new StreamController();
+    Stream&lt;Comment&gt; get stream =&gt; _controller.stream;
+
+    // some polling mechanism
+    poll() {
+        //...
+        var comment = getComment();
+        <span class="fragment highlight-current-blue">_controller.add(comment);</span>
+        //...
+    }
+}</code></pre>
+            </section>
+            <section>
+                <pre class="highlight dart stretch"><code data-noescape="" data-trim="">
+service.stream.listen((Comment comment){
+    //...
+});
+<span class="fragment">//and more!</span>
+<span class="fragment">.where(bool test(T event))</span>
+<span class="fragment">.map(convert(T event))</span>
+<span class="fragment">.expand(Iterable expand(T element)</span>
+<span class="fragment">.take(int count)</span>
+<span class="fragment">.skip(int count)</span>
+<span class="fragment">.takeWhile(bool test(T element))</span>
+<span class="fragment">.skipWhile(bool test(T element))</span>
+<span class="fragment">.transform(StreamTransformer<t, dynamic=""> streamTransformer)</t,></span>
+
+
+</code></pre>
+            </section>
+        </section>
+
+        <section>
+            <h1>Summary</h1>
+        </section>
+
+        <section style="text-align: left;" class="stretch">
+            <style>
+                img.small-logo {
+                    width: 50px
+                }
+            </style>
+            <p style="line-height: 70px; font-size: 1.8em">
+                - Follow me: <a href="https://twitter.com/bunopus">@bunopus</a> <br>
+                - <img src="img/vk-social.png" class="plain block small-logo">
+                <img src="img/facebook-social.png" class="plain block small-logo">
+                <img src="img/habr-social.png" class="plain block small-logo"> : <a href="https://www.wrike.com/">@wriketeam</a><br>
+                - Slides &amp; info: <a href="https://goo.gl/bzWco7">????</a>
+            </p>
+        </section>
+
+        <section>
+            <h1>Join the <img src="img/dart-logo.png" class="logo plain block" style="width: 70px;"><br>side</h1>
+            <img src="img/vaider-transparent.png" style="width: 300px" class="plain">
+        </section>
+
+        <section>
+            <h1>Questions</h1>
+        </section>
     </div>
 </div>
 <script src="lib/js/head.min.js"></script>

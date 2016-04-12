@@ -1,0 +1,14 @@
+{
+  "ngDeps": null,
+  "CONST": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CONST",
+      "moduleUrl": "asset:presentation_dart_src/lib/constants.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
+}

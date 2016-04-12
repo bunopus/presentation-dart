@@ -38,6 +38,13 @@
         "5": false
       },
       {
+        "1": "reflection/reflector_reader.dart",
+        "2": [
+          "ReflectorReader"
+        ],
+        "5": false
+      },
+      {
         "1": "package:angular2/src/core/testability/testability.dart",
         "2": [
           "TestabilityRegistry"

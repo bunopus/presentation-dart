@@ -5,6 +5,30 @@
       {
         "1": "package:angular2/platform/browser_static.dart",
         "5": false
+      },
+      {
+        "1": "package:presentation_dart_src/simple/simple.dart",
+        "5": false
+      },
+      {
+        "1": "package:presentation_dart_src/simple-with-sort/simple-with-sort.dart",
+        "5": false
+      },
+      {
+        "1": "package:presentation_dart_src/comments-and-likes/comments-and-likes.dart",
+        "5": false
+      },
+      {
+        "1": "package:presentation_dart_src/comments-box/entity-service/comments-serivce.dart",
+        "5": false
+      },
+      {
+        "1": "package:presentation_dart_src/comments-box/entity-service/likes-serivce.dart",
+        "5": false
+      },
+      {
+        "1": "package:presentation_dart_src/comments-stream/comments-stream.dart",
+        "5": false
       }
     ],
     "6": "main.dart",
@@ -12,6 +36,30 @@
       {
         "1": "package:angular2/platform/browser_static.template.dart",
         "4": "i0"
+      },
+      {
+        "1": "package:presentation_dart_src/simple/simple.template.dart",
+        "4": "i1"
+      },
+      {
+        "1": "package:presentation_dart_src/simple-with-sort/simple-with-sort.template.dart",
+        "4": "i2"
+      },
+      {
+        "1": "package:presentation_dart_src/comments-and-likes/comments-and-likes.template.dart",
+        "4": "i3"
+      },
+      {
+        "1": "package:presentation_dart_src/comments-box/entity-service/comments-serivce.template.dart",
+        "4": "i4"
+      },
+      {
+        "1": "package:presentation_dart_src/comments-box/entity-service/likes-serivce.template.dart",
+        "4": "i5"
+      },
+      {
+        "1": "package:presentation_dart_src/comments-stream/comments-stream.template.dart",
+        "4": "i6"
       }
     ]
   },

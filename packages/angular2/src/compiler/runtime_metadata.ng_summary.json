@@ -113,6 +113,13 @@
         "5": false
       },
       {
+        "1": "assertions.dart",
+        "2": [
+          "assertArrayOfStrings"
+        ],
+        "5": false
+      },
+      {
         "1": "package:angular2/src/compiler/url_resolver.dart",
         "2": [
           "getUrlScheme"

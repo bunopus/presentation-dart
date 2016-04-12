@@ -159,6 +159,16 @@
       "constConstructor": null
     }
   },
+  "SplitInterpolation": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "SplitInterpolation",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/parser.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
   "Parser": {
     "kind": "type",
     "value": {
