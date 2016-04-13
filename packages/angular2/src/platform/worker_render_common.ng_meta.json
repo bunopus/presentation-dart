@@ -1313,6 +1313,28 @@
       "constConstructor": null
     }
   },
+  "BrowserDetails": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "BrowserDetails",
+      "moduleUrl": "asset:angular2/lib/src/animate/browser_details.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "RafQueue": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RafQueue",
+      "moduleUrl": "asset:angular2/lib/src/animate/browser_details.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
   "AnimationBuilder": {
     "kind": "type",
     "value": {
@@ -1334,28 +1356,6 @@
           "isOptional": false
         }
       ]
-    }
-  },
-  "BrowserDetails": {
-    "kind": "type",
-    "value": {
-      "class": "Type",
-      "name": "BrowserDetails",
-      "moduleUrl": "asset:angular2/lib/src/animate/browser_details.dart",
-      "prefix": null,
-      "isHost": false,
-      "constConstructor": null,
-      "diDeps": []
-    }
-  },
-  "RafQueue": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "RafQueue",
-      "moduleUrl": "asset:angular2/lib/src/animate/browser_details.dart",
-      "prefix": null,
-      "constConstructor": null
     }
   },
   "MessageBus": {

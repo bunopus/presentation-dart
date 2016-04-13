@@ -7825,7 +7825,7 @@ if(x>=y.length)return H.e(y,x)
 this.fr=y[x].y.E(z.b)},
 u:function(a){if(a);this.fr=$.I},
 $asx:I.aq}}],["","",,N,{"^":"",j1:{"^":"b9;a,b,c",
-ght:function(a){return"/json/comments.json"},
+ght:function(a){return"json/comments.json"},
 js:function(a){return new R.fC(a,P.j())},
 $asb9:function(){return[R.fC]}}}],["","",,X,{"^":"",
 tb:function(){if($.q1)return
@@ -12430,7 +12430,7 @@ if(x>=y.length)return H.e(y,x)
 this.fr=y[x].y.E(z.b)},
 u:function(a){if(a);this.fr=$.I},
 $asx:I.aq}}],["","",,B,{"^":"",ka:{"^":"b9;a,b,c",
-ght:function(a){return"/json/likes.json"},
+ght:function(a){return"json/likes.json"},
 js:function(a){return new Z.h3(a,P.j())},
 $asb9:function(){return[Z.h3]}}}],["","",,Y,{"^":"",
 td:function(){if($.pY)return
