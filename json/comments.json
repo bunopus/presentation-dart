@@ -1,62 +1,44 @@
 [
   {
     "avatarUrl": "img/avatars/trooper.png",
-    "description": "sint ex sunt irure qui",
-    "author": "Trudy Vinson",
+    "description": "Confirm that",
+    "author": "Clone trooper",
     "postedAt": 1458848967931
   },
   {
-    "avatarUrl": "img/avatars/trooper.png",
-    "description": "mollit veniam consectetur tempor quis",
-    "author": "Knowles Donaldson",
+    "avatarUrl": "img/avatars/solo.png",
+    "description": "Dirty bastard!",
+    "author": "Han Solo",
     "postedAt": 1458198406948
   },
   {
-    "avatarUrl": "img/avatars/trooper.png",
-    "description": "incididunt qui est ullamco quis",
-    "author": "Shauna Bruce",
+    "avatarUrl": "img/avatars/qui-gon-jinn.png",
+    "description": "Who cares about Dark side? You even don`t have a beard",
+    "author": "Qui Gon Jinn",
     "postedAt": 1456244430949
   },
   {
-    "avatarUrl": "img/avatars/trooper.png",
-    "description": "tempor aliquip exercitation officia non",
-    "author": "Reeves Nelson",
+    "avatarUrl": "img/avatars/yoda.png",
+    "description": "Fear is the path to the dark side.",
+    "author": "Grand master Yoda",
     "postedAt": 1459466245379
   },
   {
-    "avatarUrl": "img/avatars/trooper.png",
-    "description": "exercitation occaecat eiusmod veniam laboris",
-    "author": "Shelton Tanner",
+    "avatarUrl": "img/avatars/chewbacca.png",
+    "description": "Hrrrgh!",
+    "author": "Chewbacca",
     "postedAt": 1456723216760
   },
   {
-    "avatarUrl": "img/avatars/trooper.png",
-    "description": "deserunt aliquip enim do nisi",
-    "author": "Rebekah Tate",
+    "avatarUrl": "img/avatars/jar-jar.png",
+    "description": "Yes, yes. ha-ha-ha *evil laugh*",
+    "author": "Jar Jar, the true Sith",
     "postedAt": 1451703526730
   },
   {
-    "avatarUrl": "img/avatars/trooper.png",
-    "description": "laborum fugiat elit nostrud exercitation",
-    "author": "Jerry Sparks",
-    "postedAt": 1452834204063
-  },
-  {
-    "avatarUrl": "img/avatars/trooper.png",
-    "description": "aliquip ex non labore cupidatat",
-    "author": "Joyce Hubbard",
-    "postedAt": 1455069711269
-  },
-  {
-    "avatarUrl": "img/avatars/trooper.png",
-    "description": "magna commodo laboris reprehenderit laboris",
-    "author": "Elvira Melton",
-    "postedAt": 1457491370217
-  },
-  {
-    "avatarUrl": "img/avatars/trooper.png",
-    "description": "incididunt eiusmod non ullamco proident",
-    "author": "Johanna Rowe",
-    "postedAt": 1454381352495
+    "avatarUrl": "img/avatars/palpatine.png",
+    "description": "UNLIMITED POWER!!!",
+    "author": "Emperor Palpatine",
+    "postedAt": 1451703526730
   }
 ]
